@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: rgb(2, 8, 38);
     font-family: 'Questrial', sans-serif
@@ -125,7 +121,6 @@ header {
 /* overall coordinator section */
 
 
-
 .h-primary {
     color: rgb(188, 230, 230);
     font-size: 50px;
@@ -149,7 +144,7 @@ header {
     background-color: #03162f;
     text-align: center;
     width: 300px;
-    height: auto;
+    height: 350px;
 }
 
 .card img {
@@ -186,6 +181,7 @@ header {
 }
 
 /* Team section */
+
 .team1 {
     display: flex;
     justify-content: space-evenly;

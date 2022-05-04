@@ -1,4 +1,5 @@
 /* navigation */
+
 #navbar ul{
     flex-direction:column;
 }
@@ -29,6 +30,7 @@
     padding-top:40px;
 }
 
+/* team-section */
 
 .team1{
     margin:auto;
@@ -36,6 +38,8 @@
 .card{
     margin:50px;
 }
+
+
 @media only screen and (max-width:900px){
     .foot{
         flex-direction:column;
@@ -43,10 +47,14 @@
     }
 }
 
+
 @media only screen and (max-width:380px){
     .h-primary{
         padding:20px;
         font-size:30px;;
+    }
+    .card{
+        height:auto;
     }
     .h-last{
         font-size:30px;
