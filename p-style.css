@@ -1,0 +1,66 @@
+/* navigation */
+#navbar ul{
+    flex-direction:column;
+}
+#navbar ul li{
+    margin:auto;
+    padding: 10px 0px;
+}
+.button{
+    padding:10px;
+    text-align:center;
+}
+.btn2{
+    margin:auto;
+}
+#navbar{
+    flex-direction:column;
+}
+.burger{
+    display:block;
+}
+.h-nav{
+    height: 80px;
+}
+.v-class{
+    opacity:0;
+}
+.h-primary{
+    padding-top:40px;
+}
+
+
+.team1{
+    margin:auto;
+}
+.card{
+    margin:50px;
+}
+@media only screen and (max-width:900px){
+    .foot{
+        flex-direction:column;
+        align-items:center
+    }
+}
+
+@media only screen and (max-width:380px){
+    .h-primary{
+        padding:20px;
+        font-size:30px;;
+    }
+    .h-last{
+        font-size:30px;
+    }
+    .com{
+        font-size:18px;
+    }
+    .hlink{
+        font-size:25px;
+    }
+    .sl{
+        font-size:18px;
+    }
+    .last{
+        font-size:10px
+    }
+}

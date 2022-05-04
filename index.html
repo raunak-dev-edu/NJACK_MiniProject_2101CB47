@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1500px)" href="p-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 
 </head>
 
@@ -18,19 +19,26 @@
     <!-- navigation -->
 
     <header>
-        <nav id="navbar">
+        <nav id="navbar" class="navbar h-nav">
             <div id="logo">
-                <a href="home.html"><img src="logo.png" alt="Raunak Tech Logo"></a>
+                <a href="home.html"><img src="img/logo.png" alt="Raunak Tech Logo"></a>
             </div>
-            <ul>
+            <ul class=" navlist v-class">
                 <li class="nav1"><a href="#">Home</a></li>
                 <li class="nav1"><a href="#">Events</a></li>
                 <li class="nav1"><a class="active" href="index.html">Team</a></li>
                 <li class="nav1"><a href="#">IITPatna </a></li>
                 <li class="nav1"><a href="#">Contact Us</a></li>
             </ul>
-            <button class="btn1">Register</button>
-            <button class="btn2">Login</button>
+            <div class="button v-class">
+                <button class="btn1">Register</button>
+                <button class="btn2">Login</button>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
     </header>
 
@@ -38,16 +46,17 @@
 
     <div id="container1">
         <h1 class="h-primary">Overall Coordinator</h1>
-
-        <div id="main" class="card">
-            <img src="raunak.jpg" alt="Raunak Photo">
-            <h2>Raunak Kumar Gupta</h2>
-            <p>Overall Coordinator | Web Developer</p>
-            <div class="icon">
-                <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                    <img src="linkedin.webp" alt="linkedin"></a>
-                <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                    <img src="gmail.png" alt="gmail"></a>
+        <div class="overall">
+            <div id="main" class="card">
+                <img src="img/raunak.jpg" alt="Raunak Photo">
+                <h2>Raunak Kumar Gupta</h2>
+                <p>Overall Coordinator | Web Developer</p>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
+                    <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
+                        <img src="img/gmail.png" alt="gmail"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -59,98 +68,98 @@
 
         <div class="team1">
             <div id="t1" class="card">
-                <img src="BillGates.jpg" alt="Raunak Photo">
+                <img src="img/BillGates.jpg" alt="Raunak Photo">
                 <h2>Bill Gates</h2>
                 <p>Team Coordinator | Tech Developer</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
             <div id="t2" class="card">
-                <img src="ElonMusk.webp" alt="Raunak Photo">
+                <img src="img/ElonMusk.webp" alt="Raunak Photo">
                 <h2>Elon Musk</h2>
                 <p>Team Coordinator | Event Organiser</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
             <div id="t3" class="card">
-                <img src="SundarPichai.jpg" alt="Raunak Photo">
+                <img src="img/SundarPichai.jpg" alt="Raunak Photo">
                 <h2>Sundar Pichai</h2>
                 <p>Team Coordinator | Query Solver</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
             <div id="t4" class="card">
-                <img src="jeffbezos.jpg" alt="Raunak Photo">
+                <img src="img/jeffbezos.jpg" alt="Raunak Photo">
                 <h2>Jeff Bezos</h2>
                 <p>Team Coordinator | Bussiness Developer</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
         </div>
         <div id="container3" class="team2">
             <div id="t5" class="card">
-                <img src="markzuck.jpg" alt="Raunak Photo">
+                <img src="img/markzuck.jpg" alt="Raunak Photo">
                 <h2>Mark Zuckerberg</h2>
                 <p>Team Coordinator | Social Connector</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
             <div id="t6" class="card">
-                <img src="paragAgrawal.jpg" alt="Raunak Photo">
+                <img src="img/paragAgrawal.jpg" alt="Raunak Photo">
                 <h2>Parag Agrawal</h2>
                 <p>Team Coordinator | Manager</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
             <div id="t7" class="card">
-                <img src="chetanbhagat.webp" alt="Raunak Photo">
+                <img src="img/chetanbhagat.webp" alt="Raunak Photo">
                 <h2>Chetan Bhagat</h2>
                 <p>Team Coordinator | Content Writter</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
             <div id="t8" class="card">
-                <img src="WarrenBuffett.jpg" alt="Raunak Photo">
+                <img src="img/WarrenBuffett.jpg" alt="Raunak Photo">
                 <h2>Warren Buffett</h2>
                 <p>Team Coordinator | Financer</p>
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226/" target="_blank">
-                        <img src="linkedin.webp" alt="linkedin"></a>
+                        <img src="img/linkedin.webp" alt="linkedin"></a>
                     <a href="mailto:raunakmodanwal321@gmail.com" target="_blank">
-                        <img src="gmail.png" alt="gmail"></a>
+                        <img src="img/gmail.png" alt="gmail"></a>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- footer -->
 
     <footer>
@@ -219,6 +228,8 @@
             <div class="last">~ Privacy Policy | Term of Use ~</div>
         </div>
     </footer>
+    <script src="resp.js"></script>
+
 </body>
 
 </html>

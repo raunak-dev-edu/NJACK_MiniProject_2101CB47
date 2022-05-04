@@ -6,6 +6,11 @@ body {
     background-color: rgb(2, 8, 38);
     font-family: 'Questrial', sans-serif
 }
+*{
+    margin:0px;
+    padding:0px;
+    
+}
 
 /* navigation */
 
@@ -34,6 +39,7 @@ header {
 
 #navbar ul {
     display: flex;
+    width:70%;
 }
 
 #navbar ul li {
@@ -65,8 +71,12 @@ header {
 
 /* reg and login button  */
 
+.button{
+    text-align:right;
+    width:30%;
+}
 .btn1 {
-    margin-left: 500px;
+/*     margin-left: 500px; */
     padding: 7px 10px;
     border-radius: 8px;
     border-color: #730384;
@@ -82,6 +92,7 @@ header {
 
 .btn2 {
     margin-left: 5px;
+    margin-right: 20px;
     padding: 7px 10px;
     border-radius: 8px;
     border-color: #730384;
@@ -96,6 +107,21 @@ header {
     cursor: pointer;
 }
 
+/* burger */
+.burger{
+    display:none;
+    position : absolute;
+    cursor:pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width:33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
 /* overall coordinator section */
 
 
@@ -104,13 +130,14 @@ header {
     color: rgb(188, 230, 230);
     font-size: 50px;
     text-align: center;
-    padding: 10px;
-    margin-top: 50px;
+    padding: 80px;
 }
 
-#main {
-    display: inline-block;
-    margin: 50px 600px;
+.overall{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 /* card */
@@ -122,7 +149,7 @@ header {
     background-color: #03162f;
     text-align: center;
     width: 300px;
-    height: 350px;
+    height: auto;
 }
 
 .card img {
@@ -142,14 +169,14 @@ header {
 }
 
 .card p {
+    padding: 20px 0px;
     color: #e3c9c9;
 }
 
 .icon img {
     padding: 10px 18px;
-    ;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 
 }
 
@@ -162,7 +189,7 @@ header {
 .team1 {
     display: flex;
     justify-content: space-evenly;
-    margin: 100px 0px;
+    margin: 50px 0px;
     flex-wrap: wrap;
 }
 
@@ -178,7 +205,7 @@ header {
 #end {
     margin-top: 300px;
     color: rgba(240, 248, 255, 0.482);
-    height: 430px;
+    height: 100%;
     background-color: #011837;
 }
 
@@ -188,24 +215,30 @@ header {
 }
 
 .h-last {
+    padding:15px 0px;
+    margin-top:50px;
     color: aliceblue;
     font-size: 2.5rem;
+    
 }
 
 .our {
+
     width: 250px;
     display: flex;
     flex-direction: column;
 }
 
 .com {
-    width: 350px;
+    width:auto;
     height: auto;
     display: flex;
     font-size: 1.2rem;
 }
 
 .hlink {
+    margin-top:50px;
+    padding:10px 0px;
     font-size: 2.2rem;
 }
 
@@ -237,6 +270,6 @@ header {
     color: rgba(255, 255, 255, 0.301);
     font-weight: lighter;
     display: flex;
-    justify-items: center;
     justify-content: center;
 }
+
